@@ -1,8 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { printLabel, createSquare } from './components/interface';
+import './class/index';
 
 function App() {
+  // let myObj = { size: 10, label: "size 10 Object" }
+  // printLabel(myObj)
+
+  let mySquare = createSquare({color: "black"});
+  console.log(mySquare)
+  
   return (
     <div className="App">
       <header className="App-header">
