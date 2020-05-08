@@ -40,6 +40,6 @@ import Rhino from './Rhino';
 
 let howard = new Employee("Howard", "Sales");
 console.log(howard.getElevatorPitch());
-console.log(howard.name); // 错误
+// console.log(howard.name); // 错误
 
 
